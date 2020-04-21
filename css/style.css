@@ -58,6 +58,7 @@ form {
 	border-top-left-radius: 7px;
 	border-top-right-radius: 7px;
 	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 0;
 	height: 50px;
 }
 
@@ -119,6 +120,12 @@ h4 {
 
 .dropdown-toggle::after {
 	display: none !important;
+}
+
+.form-group input:focus {
+	box-shadow: none;
+	outline: none;
+	background-color: #edf2f7;
 }
 
 ::placeholder {
