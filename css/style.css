@@ -27,11 +27,6 @@ body {
     min-height: 100vh;
 }
 
-.c-img .img1 {
-	position: absolute;
-    right: -100px;
-    height: 200px;
-}
 
 .form-group {
 	margin-bottom: 30px !important;
@@ -46,7 +41,7 @@ form {
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
-	height: 920px !important;
+	height: 870px !important;
     overflow-y: auto;
 }
 
@@ -84,7 +79,8 @@ h4 {
 }
 
 .box span {
-	font-size: 17px;
+	font-size: 15px;
+	padding-top: 5px;
 }
 
 .dash-link a {
@@ -108,11 +104,24 @@ h4 {
 }
 
 .dropdown-menu {
+	position: relative;
 	height: 100px !important;
 	overflow-y: auto;
 	padding: 0 10px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	top: 10px !important;
+}
+
+.dropdown-item:hover {
+	background-color: #bfcfeb;
 }
 
 .dropdown-toggle::after {
 	display: none !important;
+}
+
+::placeholder {
+	font-size: 14px;
+	color: #9d9d9e;
 }
